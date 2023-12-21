@@ -63,6 +63,14 @@ body{
     margin-left: 3.5rem;
 }
 
+.header.sticky .navbar a{
+    color: var(--text-color);
+}
+
+.header.sticky .navbar a.active{
+    color: var(--text-color);
+}
+
 .navbar a.active::before{
     content: '';
     position: absolute;
@@ -73,11 +81,21 @@ body{
     background: var(--white-color);
 }
 
+.header.sticky .navbar a.active::before{
+    background: var(--main-color);
+    opacity: .7;
+}
+
 #darkmode{
     font-size: 2.4rem;
     color: var(--white-color);
     cursor: pointer;
     margin-left: 3rem;
+}
+
+.header.sticky #darkmode{
+    color: var(--text-color);
+    opacity: .9;
 }
 
 section{
