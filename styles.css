@@ -14,14 +14,16 @@
 :root{
     --bg-color: #fdfdfd;
     --text-color: #333;
+    --text2-color: #333;
     --main-color: #3887BE;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 }
 
 .dark-mode{
-    --bg-color: #0b061f;
+    --bg-color: #131216;
     --text-color: #fdfdfd;
+    --text2-color: #333;
     --shadow-color: rgba(0, 0, 0, .7)
 }
 
@@ -437,7 +439,7 @@ span{
 
 .footer-iconTop a i{
     font-size: 2.4rem;
-    color: var(--text-color);
+    color: var(--text2-color);
 }
 
 #menu-icon{
